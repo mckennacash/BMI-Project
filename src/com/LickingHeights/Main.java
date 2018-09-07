@@ -10,14 +10,17 @@ public class Main {
         M = inch*(0.0254meters/1inch)
         inch = M*(1inch/0.0254meters)
          */
-
         Scanner keyboard;
-        String userHeight;
-        String userWeight;
+
+
       keyboard= new Scanner(System.in);
 
-      System.out.println();
 
+      System.out.println("Please enter your height in inches");
+
+        System.out.println("Now please enter your weight in kg");
+
+        System.out.println();
 
 
 
